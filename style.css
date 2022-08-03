@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    font-weight: 700;
+    margin: 1rem;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box-container{
+    display: flex;
+    margin: 0.5em;
+
+    max-width: 50%; 
+    width: auto;
+    height: fit-content;
+    box-sizing: border-box;
+}
+.footer
+{
+    margin: 160px;
+    min-height: fit-content;
+    background: #3778B9;
+    font-weight: 900;
+}
