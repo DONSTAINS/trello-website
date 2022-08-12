@@ -62,7 +62,7 @@
     }
      .header{
       background-color: #1f2937;
-      height: 60vh;
+      height: 80vh;
        color:#fff; 
        display:flex; 
       flex-direction:column;
@@ -102,7 +102,7 @@
       font-size: 600;
     }
     .hero{
-      height:calc(70vh-5rem);
+      height:calc(80vh-5rem);
       display:flex;
       gap: 1.5rem;
       align-items: center;
@@ -190,18 +190,22 @@
   display: flex;
   flex-direction: column;
   text-transform:uppercase;
-}
-.image-name{
   text-align: center;
-  text-transform: uppercase;
+  font-weight: 600;
 }
+/* .image-name{
+ 
+  text-transform: uppercase;
+} */
 
 .abu-container{
+  text-align: center;
   display: flex;
   border: 1rem;
   border-radius: 20px;
   flex-direction: column;
   text-transform:uppercase;
+  font-weight: 600;
  }
 
 
@@ -209,9 +213,13 @@
   display: flex;
   flex-direction: column;
   text-transform:uppercase;
+  text-align: center;
+  font-weight: 600;
  }
  .bhavi-container{
   display: flex;
   flex-direction: column;
   text-transform:uppercase;
+  text-align: center;
+  font-weight: 600;
  }
